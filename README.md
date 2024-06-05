@@ -2,6 +2,8 @@
 
 Zen Drive is a cloud storage application inspired by Google Drive, allowing users to securely upload, store, and manage their files in the cloud. It provides features for user authentication, file upload, file storage, and retrieval.
 
+Watch demo at : https://youtu.be/_maibOgH4iU
+
 ## Technologies Used
 
 ### Frontend
