@@ -159,6 +159,6 @@ app.get("/files", async (req, res) => {
   }
 });
 
-app.listen(3000, () => {
-  console.log("http://localhost:3000");
+app.listen(3000 || "https://zen-drive-2.onrender.com", () => {
+  // console.log("http://localhost:3000");
 });
