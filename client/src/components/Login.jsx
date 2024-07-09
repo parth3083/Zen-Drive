@@ -17,7 +17,7 @@ function Login() {
     setLoading(true);
     setError("");
     try {
-      const response = await axios.post("http://localhost:3000/login", data, {
+      const response = await axios.post("https://zen-drive-2.onrender.com/login", data, {
         withCredentials: true,
       });
       if (response.status === 203) {

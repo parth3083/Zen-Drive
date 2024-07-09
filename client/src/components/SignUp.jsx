@@ -21,7 +21,7 @@ function SignUp() {
     setError("");
 
     try {
-      const response = await axios.post("http://localhost:3000/signup", data);
+      const response = await axios.post("https://zen-drive-2.onrender.com/signup", data);
 
       if (response.status === 203) {
         setData({
